@@ -1,0 +1,23 @@
+.neu-button {
+    background: #f3f4f6;
+    border: none;
+    border-radius: 10px;
+    /*
+    下面定义了两个阴影效果：
+    第一个阴影效果：水平偏移量8px，垂直偏移量8px，模糊半径16px
+    第二个阴影效果：水平偏移量-8px，垂直偏移量-8px，模糊半径16px
+    */
+    box-shadow: 8px 8px 4px #d1d5db, -8px -8px 4px #ffffff;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.neu-button:hover {
+    box-shadow: 4px 4px 8px #d1d5db, -4px -4px 8px #ffffff;
+    transform: translate(2px, 2px);
+}
+
+

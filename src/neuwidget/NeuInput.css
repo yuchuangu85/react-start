@@ -1,0 +1,17 @@
+.neu-input {
+    background: #f3f4f6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #d1d5db, -8px -8px 16px #ffffff;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    width: 300px;
+}
+
+.neu-input:focus {
+    box-shadow: 4px 4px 8px #d1d5db, -4px -4px 8px #ffffff;
+    outline: none;
+    transform: translate(2px, 2px);
+}

@@ -1,7 +1,11 @@
-.neu-button {
+.scroll-to-top-button {
     background: #f3f4f6;
     border: none;
     border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
     /*
     下面定义了两个阴影效果：
     第一个阴影效果：水平偏移量8px，垂直偏移量8px，模糊半径16px
@@ -15,9 +19,11 @@
     transition: all 0.3s ease;
 }
 
-.neu-button:hover {
+.scroll-to-top-button:hover {
     box-shadow: 4px 4px 8px #d1d5db, -4px -4px 8px #ffffff;
     transform: translate(2px, 2px);
+    opacity: 1;
+    pointer-events: auto;
 }
 
 
